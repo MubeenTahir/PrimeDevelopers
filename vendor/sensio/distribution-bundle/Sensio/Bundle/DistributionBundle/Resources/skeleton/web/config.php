@@ -31,7 +31,7 @@ $minorProblems = $symfonyRequirements->getFailedRecommendations();
         <link rel="stylesheet" href="bundles/sensiodistribution/webconfigurator/css/install.css" media="all" />
     </head>
     <body>
-        <div id="content">
+        <!--<div id="content">
             <div class="header clear-fix">
                 <div class="header-logo">
                     <img src="bundles/framework/images/logo_symfony.png" alt="Symfony" />
@@ -119,6 +119,6 @@ $minorProblems = $symfonyRequirements->getFailedRecommendations();
                 </div>
             </div>
             <div class="version">Symfony Standard Edition</div>
-        </div>
+        </div>-->
     </body>
 </html>

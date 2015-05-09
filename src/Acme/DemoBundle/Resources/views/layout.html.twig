@@ -17,21 +17,25 @@
     {% block content_header %}
         <ul id="menu">
             {% block content_header_more %}
-                <li><a href="{{ path('_demo') }}">Demo Home</a></li>
+                
             {% endblock %}
         </ul>
 
         <div style="clear: both"></div>
     {% endblock %}
-
+    <h1>Header</h1>
     <div class="block">
         {% block content %}{% endblock %}
     </div>
 
-    {% if code is defined %}
-        <h2>Code behind this page</h2>
+      <!--{% if code is defined %}
+      <h2>Code behind this page</h2>
         <div class="block">
             <div class="symfony-content">{{ code|raw }}</div>
         </div>
-    {% endif %}
+    {% endif %}!-->
+{% endblock %}
+    
+    
+{% block body1 %}
 {% endblock %}
